@@ -1,0 +1,72 @@
+.reviews{
+	width: 1171px;
+	height: 630px;
+	margin: auto;
+}
+.customers{
+	width: 1171px;
+	height: 336px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.customers__table1{
+	width: 370px;
+	height: 336px;
+
+}
+.customers__table1-h1{
+	width: 370px;
+	height: 180px;
+	background: #E2E2E2;
+	border-radius: 10px;
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0 0 0 0;
+}
+.customers__table1-h1-p{
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	color: #86878B;
+	line-height: 21px;	
+}
+.customers__table1-avatars{
+	margin: 50px 0 0 0;
+	display: flex;
+	flex-direction: row;
+}
+.customers__table1-avatars-h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 33px;
+	text-align: left;		
+}
+.customers__table1-avatars-p{
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: left;
+}
+.customers__table1-avatars-image{
+	width: 70px;
+	height: 105px;
+	padding: auto;
+}
+
+.customers__table1-avatars-names{
+	margin: 0 0 0 30px;
+}
+.customers__table2{
+	width: 370px;
+	height: 336px;
+}
+.customers__table3{
+	width: 370px;
+	height: 336px;
+}

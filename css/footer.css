@@ -1,0 +1,28 @@
+.footer{
+	width: 1510px;
+	height: 164px;
+	margin: auto;
+	background-color: #000000;
+}
+.footer__social {
+	width: auto;
+	height: auto;
+	padding: 35px 470px 0 470px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer__2015{
+	width: auto;
+	height: auto;
+	margin: 0 0 27px 0;
+}
+.footer__2015-p{
+	color: rgba(255, 255, 255, 0.5);
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+}
