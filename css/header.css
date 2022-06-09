@@ -62,7 +62,9 @@ input[type=text]{
 	border-bottom-left-radius: 7px;
 	border-bottom-right-radius: 7px;
 	margin-top: 7px;
-	
+}
+.contact__form-cell1-button:hover{
+	opacity: 0.6;
 }
 .contact__form-cell1-button-a{
 	text-align: center;
@@ -154,6 +156,9 @@ input[type=text]{
 	text-align: center;
 	display: table-cell;
 	vertical-align: middle;
+}
+.container__mainimage-button:hover{
+	opacity: 0.6;
 }
 .container__mainimage-button-a{
 	text-decoration: none;

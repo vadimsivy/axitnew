@@ -15,6 +15,21 @@
 	height: 336px;
 
 }
+.customers__table1-h1:after {
+	position: absolute;
+	content: "";
+	width: 0;
+   height: 0;
+	margin-top: 30px;
+	margin-left: 70px;
+   border-left: 15px solid transparent;
+   border-right: 15px solid transparent;
+   border-top: 20px solid #E2E2E2;
+}
+.customers__table1-h1:hover::after{
+	transform: rotate(-180deg);
+	transition: 0.3s;
+}
 .customers__table1-h1{
 	width: 370px;
 	height: 180px;
@@ -24,13 +39,17 @@
 	vertical-align: middle;
 	margin: 0 0 0 0;
 }
+.customers__table1-h1:hover{
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .customers__table1-h1-p{
 	font-family: 'Raleway', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	color: #86878B;
-	line-height: 21px;	
+	line-height: 21px;
+	text-align: center;	
 }
 .customers__table1-avatars{
 	margin: 50px 0 0 0;

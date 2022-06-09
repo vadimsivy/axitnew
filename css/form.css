@@ -64,6 +64,9 @@ padding-bottom: 39px;
 	line-height: 60px;
 	vertical-align: middle;
 }
+.contact__formbutton-footer:hover{
+	opacity: 0.6;
+}
 .contact__formbutton-footer-a{
 	text-align: center;
 	text-decoration: none;
