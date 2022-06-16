@@ -126,7 +126,7 @@ input[type=text]{
 	line-height: 10px;
 	color: white;
 }	
-.container__mainimage-border{
+.container__mainimage-description::before{
 	content: "";
 	width: 170px;
 	display: block;

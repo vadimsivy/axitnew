@@ -46,21 +46,21 @@
 	line-height: 21px;
 	color: #000000;
 }
-.content__board{
-	
+
+.content__head::after{	
 	content: "";
 	width: 170px;
 	display: block;
 	height: 1px;
 	background-color: #EC7979;
 	margin: 0 auto;
-	}
+}
 .content__underhead{
 	
 	width: 1170px;
 	height: 21px;
 	text-align: center;
-	margin: 40px auto 70px;
+	margin: 0 auto 70px;
 }
 .main
 {
