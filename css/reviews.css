@@ -1,11 +1,13 @@
 .reviews{
-	width: 1171px;
+	width: 100%;
+	min-width: 1171px;
 	height: 630px;
 	margin: auto;
 }
 .customers{
 	width: 1171px;
 	height: 336px;
+	margin:0 auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -55,6 +57,7 @@
 	margin: 50px 0 0 0;
 	display: flex;
 	flex-direction: row;
+
 }
 .customers__table1-avatars-h1{
 	font-family: 'Open Sans', sans-serif;
@@ -88,4 +91,36 @@
 .customers__table3{
 	width: 370px;
 	height: 336px;
+}
+@media (max-width: 1024px){
+	.reviews{
+		min-width: 1024px;
+	}
+	.price__h1{
+		width: 1024px;
+	}
+	.customers{
+		width: 980px;
+		margin: 50px 20px 0 35px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.customers__table1-h1{
+		width: 300px;
+		height: 180px;
+		margin-left: 20px;
+	}
+	.customers__table1-h1:after {
+		position: absolute;
+		content: "";
+		width: 0;
+		height: 0;
+		margin-top: 20px;
+		margin-left: 70px;
+		border-left: 15px solid transparent;
+		border-right: 15px solid transparent;
+		border-top: 20px solid #E2E2E2;
+	}
+	.customers__table1-avatars-names{margin-left: 5px;}
 }

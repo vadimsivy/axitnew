@@ -82,3 +82,15 @@
 	margin: 0 auto;
 	justify-content: center;
 }
+@media(max-width: 1024px){
+	.content{
+		width: 1024px;
+	}
+	.content__underhead{
+		width: 1024px;
+	}
+	.main{
+		width: 960px;
+		margin: 71px auto;
+	}
+}

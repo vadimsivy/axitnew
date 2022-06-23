@@ -34,7 +34,8 @@
 	top: 1px; /* Сдвигаем вниз */
 	z-index: 1; /* Отображаем поверх содержимого */
 	border: 1px solid #C6CBCD;/* Параметры рамки */
-	border-bottom: none; /* Снизу линию убираем */
+	border-bottom: 1px solid white; /* Снизу линию убираем */
+	margin-bottom: -1px;
 	border-radius: 5px;
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
@@ -92,4 +93,15 @@
 	color: white;
 	background: transparent;
 	border: 0;
+}
+@media(max-width: 1024px){
+	.ta{
+		width: 960px;
+	}
+	.gallery__main-info{
+		padding: 20px 20px;
+	}
+	.gallery__main-info-first {
+		margin: 0;
+	}
 }

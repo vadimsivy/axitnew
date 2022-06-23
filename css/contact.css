@@ -38,3 +38,20 @@
 	font-weight: 400;
 	color: #86878B;
 }
+@media (max-width: 1024px){
+	.contact{
+		width: 1024px;
+	}
+	.contact__description{
+		width: 1024px;
+	}
+	.contact__menublock{
+		width: 960px;
+		margin-left: 30px;
+	}
+	.contact__menublock1-cell1 input[type=text],[type=email],[type=password]{
+		width: 500px;}
+	.contact__menublock2-cell1{
+		width: 400px;
+	}
+}

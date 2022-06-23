@@ -1,5 +1,6 @@
 .banner{
-	width: 1510px;
+	width: 100%;
+	min-width: 1510px;
 	height: 442px;
 	margin: 64px auto 0 auto;
 	background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/img/banner.png);
@@ -67,4 +68,9 @@
 	font-weight: 600;
 	font-size: 18px;
 	color: white;
+}
+@media(max-width: 1024px){
+	.banner{
+		min-width: 1024px;
+	}
 }

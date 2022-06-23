@@ -3,9 +3,10 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="HandheldFriendly" content="true" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=1170">
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/css/section.css">
 	<link rel="stylesheet" href="/css/reviews.css">
@@ -22,61 +23,54 @@
 </head>
 
 <body>
-	<div class="scrollup">
-		<!-- Иконка fa-chevron-up (Font Awesome) -->
-		<i class="fa fa-chevron-up"></i>
-	</div>
-	<header class="container">
-		<nav>
+	<div class="wrapper">
+		<header class="container">
 			<div class="container__nav">
-				<img class="container__nav-logo" src="./img/AXIT.png" alt="axit1">
-				<img src="./img/AXIT-1.png" alt="axit2">
-				<ul class="container__nav-menu">
-					<li class="container__nav-menu-li"><a class="container__nav-menu-a" href="/index.html">Features</a></li>
-					<li class="container__nav-menu-li"><a class="container__nav-menu-a" href="#about">About</a></li>
-					<li class="container__nav-menu-li"><a class="container__nav-menu-a" href="#pricing">Pricing</a></li>
-					<li class="container__nav-menu-li"><a class="container__nav-menu-a" href="#reviews">Reviews</a></li>
-					<li class="container__nav-menu-li"><a class="container__nav-menu-a" href="#contact">Contact</a></li>
-				</ul>
+				<img class="container__nav-logo" src="./img/logo.png" alt="axit1">
+				<nav class="container__nav-menu">
+					<ul>
+						<li class="container__nav-menu-li"><a class="container__nav-menu-a" href="/index.html">Features</a>
+						</li>
+						<li class="container__nav-menu-li"><a class="container__nav-menu-a" href="#about">About</a></li>
+						<li class="container__nav-menu-li"><a class="container__nav-menu-a" href="#pricing">Pricing</a>
+						</li>
+						<li class="container__nav-menu-li"><a class="container__nav-menu-a" href="#reviews">Reviews</a>
+						</li>
+						<li class="container__nav-menu-li"><a class="container__nav-menu-a" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</nav>
 			</div>
-		</nav>
-		<div class="form__flex">
-			<div class="container__form">
-				<div class="contact__form-cell1">
-					<p class="contact__form-cell1-p">try your <span class="contact__form-cell1-span">free</span> trial today
-					</p>
+			<div class="form__flex">
+				<div class="container__form">
+					<div class="contact__form-cell1">
+						<p class="contact__form-cell1-p">try your <span class="contact__form-cell1-span">free</span> trial
+							today
+						</p>
+					</div>
+					<form>
+						<div class="contact__form-cell1">
+							<input type="text" placeholder="Name" name="name" required>
+						</div>
+						<div class="contact__form-cell1">
+							<input type="text" placeholder="Email" name="email" required>
+						</div>
+						<div class="contact__form-cell1">
+							<input type="text" placeholder="Password" name="password" required>
+						</div>
+						<input class="contact__form-cell1-button" type="submit" value="Send Message">
+					</form>
 				</div>
-				<form class="contact__form-cell1">
-					<input type="text" placeholder="Name" name="name" required>
-				</form>
-				<form class="contact__form-cell1">
-					<input type="text" placeholder="Email" name="email" required>
-				</form>
-				<form class="contact__form-cell1">
-					<input type="text" placeholder="Password" name="password" required>
-				</form>
-				<div class="contact__form-cell1-button">
-					<a class="contact__form-cell1-button-a" href="/index.html">Get Started</a>
+				<div class="container__mainimage">
+					<img class="container__mainimage-logo" src="./img/logoaside.png" alt="aside1">
+					<p class="container__mainimage-aside-p">modern axure template <br> for beautiful<br> prototypes</p>
+					<p class="container__mainimage-description-p">Lorem ipsum dolor sit amet<br> consectetur, adipisicing
+						elit.</p>
+					<a class="container__mainimage-button-a container__mainimage-button" href="/index.html">Download</a>
 				</div>
 			</div>
-			<div class="container__mainimage">
-				<img class="container__mainimage-logo" src="./img/axitaside1.png" alt="aside1">
-				<img class="container__mainimage-logo" src="./img/axitaside2.png" alt="aside2">
-				<aside class="container__mainimage-aside">
-					<p class="container__mainimage-aside-p">modern axure template</p>
-					<p class="container__mainimage-aside-p">for beautiful</p>
-					<p class="container__mainimage-aside-p">prototypes</p>
-				</aside>
-				<aside class="container__mainimage-description">
-					<p class="container__mainimage-description-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-					</p>
-				</aside>
-				<aside class="container__mainimage-button">
-					<a class="container__mainimage-button-a" href="/index.html">Download</a>
-				</aside>
-			</div>
-		</div>
-	</header>
+		</header>
+	</div>
 	<div class="section">
 		<div class="section__social">
 			<p class="section__social-text1">Social Media</p>
@@ -84,27 +78,13 @@
 			</p>
 		</div>
 		<div class="media">
-			<div class="">
-				<a href="/index.html"><img src="./img/facebook_icon.png" alt="facebook"></a>
-			</div>
-			<div class="">
-				<a href="/index.html"><img src="./img/twitter_icon.png" alt="twitter"></a>
-			</div>
-			<div class="">
-				<a href="/index.html"><img src="./img/linkedin_icon.png" alt="in"></a>
-			</div>
-			<div class="">
-				<a href="/index.html"><img src="./img/pinterest_icon.png" alt="pinterest"></a>
-			</div>
-			<div class="">
-				<a href="/index.html"><img src="./img/instagram_icon.png" alt="instagram"></a>
-			</div>
-			<div class="">
-				<a href="/index.html"><img src="./img/github_icon.png" alt="github"></a>
-			</div>
-			<div class="">
-				<a href="/index.html"><img src="./img/rss_icon.png" alt="rss"></a>
-			</div>
+			<a class="media__icon" href="/index.html"><img src="./img/facebook_icon.png" alt="facebook"></a>
+			<a class="media__icon" href="/index.html"><img src="./img/twitter_icon.png" alt="twitter"></a>
+			<a class="media__icon" href="/index.html"><img src="./img/linkedin_icon.png" alt="in"></a>
+			<a class="media__icon" href="/index.html"><img src="./img/pinterest_icon.png" alt="pinterest"></a>
+			<a class="media__icon" href="/index.html"><img src="./img/instagram_icon.png" alt="instagram"></a>
+			<a class="media__icon" href="/index.html"><img src="./img/github_icon.png" alt="github"></a>
+			<a class="media__icon" href="/index.html"><img src="./img/rss_icon.png" alt="rss"></a>
 		</div>
 	</div>
 	<div class="ta">
@@ -358,55 +338,40 @@
 		<div class="contact__description">
 			<p class="contact__description-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 		</div>
-		<div class="contact__menublock">
-			<div class="contact__menublock1">
-				<form class="contact__menublock1-cell1">
-					<input type="text" placeholder="Name" name="name" required>
-				</form>
-				<form class="contact__menublock1-cell1">
-					<input type="text" placeholder="Email" name="email" required>
-				</form>
-				<form class="contact__menublock1-cell1">
-					<input type="text" placeholder="Password" name="password" required>
-				</form>
-			</div>
-			<div class="contact__menublock2">
-				<div>
-					<form class="contact__menublock2-cell1">
-						<input type="text" placeholder="Message" name="message" required>
-					</form>
+		<form>
+			<div class="contact__menublock">
+				<div class="contact__menublock1">
+					<div class="contact__menublock1-cell1">
+						<input type="text" placeholder="Name" name="name" required>
+					</div>
+					<div class="contact__menublock1-cell1">
+						<input type="email" placeholder="Email" name="email" required>
+					</div>
+					<div class="contact__menublock1-cell1">
+						<input type="password" placeholder="Password" name="password" required>
+					</div>
+				</div>
+				<div class="contact__menublock2">
+					<textarea class="contact__menublock2-cell1" name="Message" placeholder="Message"></textarea>
 				</div>
 			</div>
-		</div>
-		<div class="contact__flex">
-			<div class="contact__formbutton-footer">
-				<a class="contact__formbutton-footer-a" href="/index.html">Send message</a>
+			<div class="contact__flex">
+				<div class="contact__formbutton-footer">
+					<input class="contact__formbutton-footer contact__formbutton-footer-font" type="submit"
+						value="Send Message">
+				</div>
 			</div>
-		</div>
 	</div>
+	</form>
 	<footer class="footer">
 		<div class="footer__social">
-			<div class="footer__social-icon">
-				<a href="/index.html"><img src="./img/facebook_footer.png" alt="facebook"></a>
-			</div>
-			<div class="footer__social-icon">
-				<a href="/index.html"><img src="./img/twitter_footer.png" alt="twitter"></a>
-			</div>
-			<div class="footer__social-icon">
-				<a href="/index.html"><img src="./img/linkedin_footer.png" alt="in"></a>
-			</div>
-			<div class="footer__social-icon">
-				<a href="/index.html"><img src="./img/pinterest_footer.png" alt="pinterest"></a>
-			</div>
-			<div class="footer__social-icon">
-				<a href="/index.html"><img src="./img/instagram_footer.png" alt="instagram"></a>
-			</div>
-			<div class="footer__social-icon">
-				<a href="/index.html"><img src="./img/github_footer.png" alt="github"></a>
-			</div>
-			<div class="footer__social-icon">
-				<a href="/index.html"><img src="./img/rss_footer.png" alt="rss"></a>
-			</div>
+			<a href="/index.html"><img src="./img/facebook_footer.png" alt="facebook"></a>
+			<a href="/index.html"><img src="./img/twitter_footer.png" alt="twitter"></a>
+			<a href="/index.html"><img src="./img/linkedin_footer.png" alt="in"></a>
+			<a href="/index.html"><img src="./img/pinterest_footer.png" alt="pinterest"></a>
+			<a href="/index.html"><img src="./img/instagram_footer.png" aоlt="instagram"></a>
+			<a href="/index.html"><img src="./img/github_footer.png" alt="github"></a>
+			<a href="/index.html"><img src="./img/rss_footer.png" alt="rss"></a>
 		</div>
 		<div class="footer__2015">
 			<p class="footer__2015-p">© 2015 Axure Themes</p>

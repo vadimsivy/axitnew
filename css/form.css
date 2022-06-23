@@ -21,7 +21,7 @@ padding-bottom: 39px;
 	height: 90px;
 	margin: 0 50px 0 50px;
 }
-.contact__menublock1-cell1 input[type=text]{
+.contact__menublock1-cell1 input[type=text],[type=email],[type=password]{
 	width: 571px;
 	height: 38px;
 	border: 1px solid #BDBDBD;
@@ -34,9 +34,9 @@ padding-bottom: 39px;
 	font-weight: 400;
 	color: #BDBDBD;
 }
-.contact__menublock2-cell1 input[type=text]{
+.contact__menublock2-cell1 {
 	width: 571px;
-	height: 280px;
+	height: 260px;
 	border: 1px solid #BDBDBD;
 	border-top: none;
 	border-right: none;
@@ -46,6 +46,7 @@ padding-bottom: 39px;
 	font-style: normal;
 	font-weight: 400;
 	color: #BDBDBD;
+	resize: none;
 }
 .contact__flex{
 	width: auto;
@@ -63,11 +64,12 @@ padding-bottom: 39px;
 	text-align: center;
 	line-height: 60px;
 	vertical-align: middle;
+	border: none;
 }
 .contact__formbutton-footer:hover{
 	opacity: 0.6;
 }
-.contact__formbutton-footer-a{
+.contact__formbutton-footer-font {
 	text-align: center;
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
