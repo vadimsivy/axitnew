@@ -55,3 +55,39 @@
 		width: 400px;
 	}
 }
+@media (max-width: 320px){
+	.contact{
+		width: 320px;
+	}
+	.contact__description{
+		width: 320px;
+		margin-top: 0;
+	}
+	.contact__menublock{
+		width: 320px;
+		margin-left: 0;
+		flex-direction: column;
+	}
+	.contact__menublock1-cell1{
+		width: 288px;
+		margin-bottom: 10px;
+	}
+	.contact__menublock1-cell1 input[type=text],[type=email],[type=password]{
+		width: 240px;
+		margin-left: 28px;
+	}
+	.contact__menublock2-cell1{
+			height: 200px;
+			width: 240px;
+		}
+		.contact__menublock2-cell1{
+			margin-left: 37px;
+		}
+		.contact__flex{
+			width: 320px;
+			margin-top: 10px;
+		}
+		.contact__formbutton-footer{
+			width: 288px;
+		}
+}

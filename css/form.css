@@ -16,11 +16,6 @@ flex-direction: row;
 align-items: flex-end;
 padding-bottom: 39px;
 }
-.contact__form-cell1 {
-	width: 370px;
-	height: 90px;
-	margin: 0 50px 0 50px;
-}
 .contact__menublock1-cell1 input[type=text],[type=email],[type=password]{
 	width: 571px;
 	height: 38px;

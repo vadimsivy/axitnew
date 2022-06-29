@@ -270,3 +270,73 @@
 	}
 
 }
+@media(max-width:320px){
+	.price{
+		min-width: 320px;
+		margin-top: 800px;
+	}
+	.price__h1{
+		min-width: 320px;
+	}
+	.price__h2{
+		width: 288px;
+	}
+	.price__table{
+		margin-top: 60px;
+		width: 288px;
+		height: auto;
+		flex-direction: column;
+	}
+	.price__table-first{
+		margin-bottom: 20px;
+		width: 288px;
+		margin-right: 0;
+	}
+	.price__table-second{
+		margin-bottom: 20px;
+		width: 288px;
+		margin-right: 0;
+	}
+	.price__table-third{
+		margin-bottom: 20px;
+		width: 288px;
+		margin-right: 0;
+	}
+	.price__table-first-cell1{
+		width: 288px;
+		margin: 0 auto;
+	}
+	.price__table-first-cell2{
+		width: 288px;
+	}
+	.price__table-first-cell3{
+		width: 288px;
+	}
+	.price__table-first-cell4{
+		width: 288px;
+	}
+	.price__table-second-cell1{
+		width: 288px;
+	}
+	.price__table-second-cell2{
+		width: 288px;
+	}
+	.price__table-second-cell3{
+		width: 288px;
+	}
+	.price__table-second-cell4{
+		width: 288px;
+	}
+	.price__table-third-cell1{
+		width: 288px;
+	}
+	.price__table-third-cell2{
+		width: 288px;
+	}
+	.price__table-third-cell3{
+		width: 288px;
+	}
+	.price__table-third-cell4{
+		width: 288px;
+	}
+}

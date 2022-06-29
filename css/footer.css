@@ -34,3 +34,21 @@
 		min-width: 1024px;
 	}
 }
+@media(max-width: 320px){
+	.footer{
+		min-width: 320px;
+	}
+	.social__icon-footer{
+		width: 26px;
+		height: 26px;
+	}
+	.footer__social a{
+		margin-right: 0;
+	}
+	.footer__social a:first-child{
+		margin-left: 10px;
+	}
+	.footer__social{
+		margin: 0 auto;
+	}
+}

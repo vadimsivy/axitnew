@@ -124,3 +124,19 @@
 	}
 	.customers__table1-avatars-names{margin-left: 5px;}
 }
+@media(max-width:320px){
+	.reviews{
+		min-width: 320px;
+		height: auto;
+		margin-top: 1000px;
+	}
+	.customers{
+		display: none;
+	}
+	.price__h1{
+		margin: 0 15px;
+	}
+	.content__head-p{
+		width: 280px;
+	}
+}

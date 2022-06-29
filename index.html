@@ -18,12 +18,15 @@
 	<link rel="stylesheet" href="/css/footer.css">
 	<link rel="stylesheet" href="/css/contact.css">
 	<link rel="stylesheet" href="/css/banner.css">
+	<link rel="stylesheet" href="/css/swiper.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 	<title>AXIT.com</title>
 	<link rel="icon" type="image/x-icon" href="./img/favicon.png">
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </head>
 
 <body>
-	<div class="wrapper">
+	<div class="wrappermain">
 		<header class="container">
 			<div class="container__nav">
 				<img class="container__nav-logo" src="./img/logo.png" alt="axit1">
@@ -40,6 +43,19 @@
 						</li>
 					</ul>
 				</nav>
+				<div class="hamburger-menu">
+					<input id="menu__toggle" type="checkbox" />
+					<label class="menu__btn" for="menu__toggle">
+						<span></span>
+					</label>
+					<ul class="menu__box">
+						<li><a class="menu__item" href="/index.html">Features</a></li>
+						<li><a class="menu__item" href="#about">About</a></li>
+						<li><a class="menu__item" href="#pricing">Pricing</a></li>
+						<li><a class="menu__item" href="#reviews">Reviews</a></li>
+						<li><a class="menu__item" href="#contact">Contact</a></li>
+					</ul>
+				</div>
 			</div>
 			<div class="form__flex">
 				<div class="container__form">
@@ -78,13 +94,16 @@
 			</p>
 		</div>
 		<div class="media">
-			<a class="media__icon" href="/index.html"><img src="./img/facebook_icon.png" alt="facebook"></a>
-			<a class="media__icon" href="/index.html"><img src="./img/twitter_icon.png" alt="twitter"></a>
-			<a class="media__icon" href="/index.html"><img src="./img/linkedin_icon.png" alt="in"></a>
-			<a class="media__icon" href="/index.html"><img src="./img/pinterest_icon.png" alt="pinterest"></a>
-			<a class="media__icon" href="/index.html"><img src="./img/instagram_icon.png" alt="instagram"></a>
-			<a class="media__icon" href="/index.html"><img src="./img/github_icon.png" alt="github"></a>
-			<a class="media__icon" href="/index.html"><img src="./img/rss_icon.png" alt="rss"></a>
+			<a class="media__icon" href="/index.html"><img class="img_320" src="./img/facebook_icon.png"
+					alt="facebook"></a>
+			<a class="media__icon" href="/index.html"><img class="img_320" src="./img/twitter_icon.png" alt="twitter"></a>
+			<a class="media__icon" href="/index.html"><img class="img_320" src="./img/linkedin_icon.png" alt="in"></a>
+			<a class="media__icon" href="/index.html"><img class="img_320" src="./img/pinterest_icon.png"
+					alt="pinterest"></a>
+			<a class="media__icon" href="/index.html"><img class="img_320" src="./img/instagram_icon.png"
+					alt="instagram"></a>
+			<a class="media__icon" href="/index.html"><img class="img_320" src="./img/github_icon.png" alt="github"></a>
+			<a class="media__icon" href="/index.html"><img class="img_320" src="./img/rss_icon.png" alt="rss"></a>
 		</div>
 	</div>
 	<div class="ta">
@@ -113,9 +132,7 @@
 								</div>
 							</div>
 						</div>
-						<div>
-							<img class="gallery__main-img" src="./img/Rectangle.png" alt="sculpture">
-						</div>
+						<img class="gallery__main-img" src="./img/Rectangle.png" alt="sculpture">
 					</div>
 				</div>
 			</div>
@@ -143,9 +160,7 @@
 								</div>
 							</div>
 						</div>
-						<div>
-							<img class="gallery__main-img" src="./img/Rectangle.png" alt="sculpture">
-						</div>
+						<img class="gallery__main-img" src="./img/Rectangle.png" alt="sculpture">
 					</div>
 				</div>
 			</div>
@@ -173,9 +188,7 @@
 								</div>
 							</div>
 						</div>
-						<div>
-							<img class="gallery__main-img" src="./img/Rectangle.png" alt="sculpture">
-						</div>
+						<img class="gallery__main-img" src="./img/Rectangle.png" alt="sculpture">
 					</div>
 				</div>
 			</div>
@@ -318,6 +331,84 @@
 			</div>
 		</div>
 	</div>
+	<div class="wrapper">
+		<input type="radio" name="point" id="slide1" checked>
+		<input type="radio" name="point" id="slide2">
+		<input type="radio" name="point" id="slide3">
+		<div class="slider">
+			<div class="slides slide1">
+				<div class="slidetext">
+					<div class="customers__table1">
+						<div class="customers__table1-h1-swipe">
+							<p class="customers__table1-h1-p">Lorem ipsum dolor sit amet,
+								consectetur adipisicing elit. Doloribus
+								accusamus expedita repellat similique
+								odio aspernatur ex, architecto eaque
+								quo suscipit.</p>
+						</div>
+						<div class="customers__table1-avatars-swipe">
+							<div class="customers__table1-avatars-image">
+								<img src="./img/customer1.png" alt="Davis">
+							</div>
+							<div class="customers__table1-avatars-names">
+								<h1 class="customers__table1-avatars-h1">Davis Rhiel Madsen</h1>
+								<p class="customers__table1-avatars-p">Manager</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slides slide2">
+				<div class="slidetext">
+					<div class="customers__table1">
+						<div class="customers__table1-h1-swipe">
+							<p class="customers__table1-h1-p">Lorem ipsum dolor sit amet,
+								consectetur adipisicing elit. Doloribus
+								accusamus expedita repellat similique
+								odio aspernatur ex, architecto eaque
+								quo suscipit.</p>
+						</div>
+						<div class="customers__table1-avatars-swipe">
+							<div class="customers__table1-avatars-image">
+								<img src="./img/customer2.png" alt="Davis">
+							</div>
+							<div class="customers__table1-avatars-names">
+								<h1 class="customers__table1-avatars-h1">Jaydon Rosser</h1>
+								<p class="customers__table1-avatars-p">Manager</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slides slide3">
+				<div class="slidetext">
+					<div class="customers__table1">
+						<div class="customers__table1-h1-swipe">
+							<p class="customers__table1-h1-p">Lorem ipsum dolor sit amet,
+								consectetur adipisicing elit. Doloribus
+								accusamus expedita repellat similique
+								odio aspernatur ex, architecto eaque
+								quo suscipit.</p>
+						</div>
+						<div class="customers__table1-avatars-swipe">
+							<div class="customers__table1-avatars-image">
+								<img src="./img/customer3.png" alt="Davis">
+							</div>
+							<div class="customers__table1-avatars-names">
+								<h1 class="customers__table1-avatars-h1">Cooper Dorwart</h1>
+								<p class="customers__table1-avatars-p">Manager</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="controls">
+			<label for="slide1"></label>
+			<label for="slide2"></label>
+			<label for="slide3"></label>
+		</div>
+	</div>
 	<div class="banner">
 		<div class="banner__h1">
 			<p class="content__head-p">stylish axure design</p>
@@ -365,13 +456,13 @@
 	</form>
 	<footer class="footer">
 		<div class="footer__social">
-			<a href="/index.html"><img src="./img/facebook_footer.png" alt="facebook"></a>
-			<a href="/index.html"><img src="./img/twitter_footer.png" alt="twitter"></a>
-			<a href="/index.html"><img src="./img/linkedin_footer.png" alt="in"></a>
-			<a href="/index.html"><img src="./img/pinterest_footer.png" alt="pinterest"></a>
-			<a href="/index.html"><img src="./img/instagram_footer.png" aоlt="instagram"></a>
-			<a href="/index.html"><img src="./img/github_footer.png" alt="github"></a>
-			<a href="/index.html"><img src="./img/rss_footer.png" alt="rss"></a>
+			<a href="/index.html"><img class="social__icon-footer" src="./img/facebook_footer.png" alt="facebook"></a>
+			<a href="/index.html"><img class="social__icon-footer" src="./img/twitter_footer.png" alt="twitter"></a>
+			<a href="/index.html"><img class="social__icon-footer" src="./img/linkedin_footer.png" alt="in"></a>
+			<a href="/index.html"><img class="social__icon-footer" src="./img/pinterest_footer.png" alt="pinterest"></a>
+			<a href="/index.html"><img class="social__icon-footer" src="./img/instagram_footer.png" aоlt="instagram"></a>
+			<a href="/index.html"><img class="social__icon-footer" src="./img/github_footer.png" alt="github"></a>
+			<a href="/index.html"><img class="social__icon-footer" src="./img/rss_footer.png" alt="rss"></a>
 		</div>
 		<div class="footer__2015">
 			<p class="footer__2015-p">© 2015 Axure Themes</p>

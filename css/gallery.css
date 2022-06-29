@@ -105,3 +105,45 @@
 		margin: 0;
 	}
 }
+@media(max-width: 320px){
+	.ta{
+		width: 288px;
+		height: 470px;
+		
+	}
+	.gallery__main-info-first{
+		font-size: 18px;
+		margin-top: 30px;
+		text-align: center;
+	}
+	.gallery__main-info-p{
+		font-size: 13px;
+		margin: 15px 15px 0 15px;
+
+		text-align: center;
+	}
+	.tab, .tab-title{
+		width: 80px;
+	}
+	.gallery__main-img{
+		display: none;
+	}
+	.gallery__main{
+		display: block;
+	}
+	.gallery__main-info{
+		margin: 0 auto;
+		padding: 0;
+	}
+	.gallery__main-div{
+		width: 240px;
+		margin: 15px auto 15px;
+		position: absolute;
+		left: 22px;
+		bottom: 15px;
+		
+	}
+	.tab-content{
+		min-width: 288px;
+	}
+}
